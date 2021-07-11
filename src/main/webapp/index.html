@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOFTER</title>
+	<meta charset="utf-8">
+	
+	<script src="js/frame/jquery-3.5.1.min.js"></script>
+	<script src="js/frame/vue.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div id="topbar">
+		<topbar></topbar>
+	</div>
+
+	<div id="content">
+		<div id="contentleft">
+			<publishbararea v-bind:topuserimg="topuserimg"></publishbararea>
+			<uploadtxt v-bind:topuserimg="topuserimg"></uploadtxt>
+			<uploadimgtxt v-bind:topuserimg="topuserimg"></uploadimgtxt>
+			<mlist 
+			v-for="mlistobject in mlistobjects" 
+			v-bind:key="mlistobject.mlistid"
+			v-bind:username="mlistobject.username"
+			v-bind:imgsrc="mlistobject.imgsrc"
+			v-bind:title="mlistobject.title"
+			v-bind:content="mlistobject.content"
+			v-bind:userimg="mlistobject.userimg"
+			></mlist>
+		</div>
+		<div id="contentright">
+			<rboxuser></rboxuser>
+			<rboxcre></rboxcre>
+			<rbanner url="./img/banner1.jpg"></rbanner>
+			<download></download>
+		</div>
+		<div style="height: 100px; width: 100%; float: left;"></div>
+	</div>
+
+	<div id="other">
+		<watg></watg>
+		<upload></upload>
+		<gotop></gotop>
+	</div>
+
+
+
+
+
+
+
+
+
+	<!--公共组件-->
+	<script type="text/javascript" src="js/compoents.js"></script>
+
+	<!--页面独有组件-->
+	<script type="text/javascript" src="js/index_c.js"></script>
+
+	<!--页面独有功能函数-->
+	<script type="text/javascript" src="js/index_f.js"></script>
+</body>
+</html>

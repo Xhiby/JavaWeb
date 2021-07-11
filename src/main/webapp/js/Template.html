@@ -1,0 +1,284 @@
+<div class="topbar">
+	<div class="topbar_left">
+		<a href="index.html" target="_blank">LOFTER</a>
+		<a href="index.html" target="_blank">首页</a>
+		<a href="more.html" target="_blank">发现</a>
+		<a href="#">APP</a>
+		<div class="topbar_search">
+			<input type="text" name="" placeholder="搜索用户、标签">
+		</div>
+	</div>
+	<div class="topbar_right">
+		<a href="#">I</a>
+		<a href="#">I</a>
+		<a href="#">I</a>
+		<a href="#">I</a>
+	</div>
+</div>
+
+
+<div id="publishbararea">
+	<div class="pareaitem pareaitemuser">
+		<div>
+			<img src="">
+		</div>
+	</div>
+	<div class="pareaitem pareaitemtxt"></div>
+	<div class="pareaitem pareaitemimg"></div>
+	<div class="pareaitem pareaitemmusic"></div>
+	<div class="pareaitem pareaitemvideo"></div>
+	<div class="pareaitem pareaitemlink"></div>
+</div>
+
+<div id="rboxuser">
+	<a class="rboxuser" href="user.html" target="_blank">
+		<h2>Eine</h2>
+		<span>用户签名</span>
+	</a>
+	<div class="rboxusermore">
+		<a href="#"></a>
+	</div>
+	<div class="rboxuserfan">
+		<a class="rboxuserfanf" href="#">
+			<span>关注</span>
+			<p>7</p>
+		</a>
+		<a class="rboxuserfans" href="#">
+			<span>粉丝</span>
+			<p>1</p>
+		</a>
+	</div>
+</div>
+
+<div id="mlist">
+	<div class="mlistimg"></div>
+	<div class="mlistcnt">
+		<span class="mlistcntname">{{username}}</span>
+		
+		<div v-if="imgsrc" class="mlistcntmid_img">
+			<img v-bind:src="imgsrc">
+			<p class="mlistcnttxt">{{content}}</p>
+		</div>
+		<div v-if="title" class="mlistcntmid_text">
+			<p>{{title}}</p>
+			<span>{{content}}</span>
+		</div>
+		
+		<div class="mlistcntopt">
+			<div>
+				<span>热度(39)</span>
+				<span>评论</span>
+				<span>分享</span>
+				<span>推荐</span>
+				<div class="mlistcntopticon"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="rboxcre">
+	<a href="#">
+		<span class="rboxcretitle">创作者中心</span>
+		<div class="rboxcretitlei icon"></div>
+	</a>
+	<a href="#">
+		<div class="rboxcretxt icon"></div>
+		<span>文章</span>
+	</a>
+	<a href="#">
+		<div class="rboxcrecon icon"></div>
+		<span>合集</span>
+	</a>
+	<a href="#">
+		<div class="rboxcremoney icon"></div>
+		<span>钱包</span>
+	</a>
+	<a href="#">
+		<div class="rboxcretext icon"></div>
+		<span>草稿</span>
+	</a>
+	<a id="rboxcresetcon" style="border-bottom: none;" href="#">
+		<div class="rboxcreseti icon"></div>
+		<span class="rboxcreset">个人主页设置</span>
+	</a>
+</div>
+
+<div id="rbanner">
+	<img v-bind:src="src">
+</div>
+
+<div id="ract">
+	<div class="racttit">
+		<p>戏精主子争宠记</p>
+		<span>5020人参与</span>
+	</div>
+	<div class="ractcon">
+		<img src="img/act/act1.jpg">
+		<img src="img/act/act2.jpg">
+		<img src="img/act/act3.jpg">
+		<img src="img/act/act4.jpg">
+	</div>
+	<div class="actmore">
+		<div class="actmoreicon"></div>
+		<span>更多话题</span>
+	</div>
+</div>
+
+<div id="download">
+	<div class="downloadtitle">
+		<p>使用手机访问 LOFTER</p>
+	</div>
+	<div class="downloaddiv">
+		<img src="img/download/app_android.jpg">
+		<div>
+			<p>安卓APP下载</p>
+			<span>扫码下载安卓</span><br>
+			<span>LOFTER APP</span>
+		</div>
+	</div>
+	<div class="downloaddiv">
+		<img src="img/download/mp_weixin.jpg">
+		<div>
+			<p>微信小程序</p>
+			<span>使用微信扫码打开LOFTER微信小程序</span>
+		</div>
+	</div>
+	<div class="downloaddiv">
+		<img src="img/download/mp_qq.jpg">
+		<div>
+			<p>QQ小程序</p>
+			<span>使用QQ扫码打开LOFTER QQ小程序</span>
+		</div>
+	</div>
+	<div class="downloaddiv">
+		<img src="img/download/app_ios.jpg">
+		<div>
+			<p>苹果APP下载</p>
+			<span>扫码下载iOS</span><br>
+			<span>LOFTER APP</span>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+</div>
+
+
+
+
+
+
+
+
+
+<div id="watg"></div>
+
+<div id="upload">
+	<p class="uploadtit">上传头像</p>
+	<div class="uploadcnt">
+		<div class="uploadbtn">
+			<div class="uploadin">
+				<span>服务器预览</span><br>
+				<input id="uploadbtn1" type="file" name="">
+				<br><br>
+				<span>客户端预览</span><br>
+				<input id="uploadbtn2" type="file" value="上传头像">
+			</div>
+		</div>
+		<div class="uploadbtnimg"></div>
+		<div class="preview">
+			<p>拖拽或缩放虚线框，生成自己满意的头像</p>
+			<img class="lpre" src="">
+			<p>110*110像素</p>
+			<img class="mpre" src="">
+			<p>64*64像素</p>
+			<img class="spre" src="">
+			<p>30*30像素</p>
+		</div>
+	</div>
+</div>
+
+<div id="uploadtxt">
+	<div class="uploadtxtimg"></div>
+	<div class="uploadtxtcnt">
+		<span class="uploadtxtcntname">用户昵称</span>
+		<div class="uploadtxtcntmid">
+			<input id="uptxttit" type="text" placeholder="标题"><br>
+			<input id="uptxtcnt" type="text" placeholder="内容">
+		</div>
+		<div class="uploadtxtcntopt">
+			<button id="uptxtcancelbtn">取消</button>
+			<button id="uptxtpublishbtn">发布</button>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+</div>
+
+<div id="moreitem">
+	<div class="moreitemtit">
+		<img src="img/user.jpg">
+		<span>用户昵称</span>
+		<button>关注</button>
+	</div>
+	<div class="moreitemcnt">
+		<img src="img/More1.png">
+		<p>动态描述动态描述动态描述</p>
+	</div>
+	<hr>
+	<div class="moreitembottom">
+		<div class="likeicon"></div>
+		<span>292人喜欢</span>
+	</div>
+</div>
+
+<a id="gotop" href="#"></a>
+
+<div id="umnitem">
+	<img 
+	v-if="imgsrc" 
+	v-bind:src="imgsrc"
+	>
+	<div 
+	class="umnitemtxt"
+	v-if="title" 
+	>
+		<p>{{title}}</p>
+		<span>{{content}}</span>
+	</div>
+	<div class="umnitemdel">
+		<button>删除</button>
+	</div>
+</div>
+
+
+
+<div class="logincon">
+	<div class="loginwarp">
+		<div class="logintit">
+			<p>LOFFTER</p>
+			<span>看 见 每 一 种 兴 趣</span>
+		</div>
+		<div class="loginformc">
+			<p>欢迎来到乐乎</p>
+			<input type="text" name="" placeholder="用户名">
+			<input type="password" name="" placeholder="密码">
+			<button>登录/注册</button>
+			<br>
+			<span>Tips:未注册的用户登录后将会自动注册</span>
+		</div>
+	</div>
+</div>
+
+
+<div class="usd">
+	<div class="usdimg">
+		<img src="img/my/userimg.png">
+	</div>
+	<div class="usdabout">
+		<p>Eine</p>
+		<span>用户签名</span>
+	</div>
+	<div class="usdbotm">
+		<span>私信</span>
+		<span>归档</span>
+		<span>搜索</span>
+	</div>
+</div>

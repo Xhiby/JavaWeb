@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eine</title>
+	<meta charset="utf-8">
+
+	<script src="js/frame/jquery-3.5.1.min.js"></script>
+	<script src="js/frame/vue.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div id="usd">
+		<usd></usd>
+	</div>
+	<div id="userlistcon" class="umn">
+		<div class="umntop">
+			<a href="index.html">返回首页</a>
+		</div>
+		<div id="umnitem">
+			<div class="umnitem1">
+				<umnitem
+				v-for="userlist1 in userlists1" 
+				v-bind:key="userlist1.id"
+				v-bind:id="userlist1.id"
+				v-bind:imgsrc="userlist1.imgsrc"
+				v-bind:title="userlist1.title"
+				v-bind:content="userlist1.content"
+				></umnitem>
+			</div>
+
+			<div class="umnitem2">
+				<umnitem
+				v-for="userlist2 in userlists2" 
+				v-bind:key="userlist2.id"
+				v-bind:id="userlist2.id"
+				v-bind:imgsrc="userlist2.imgsrc"
+				v-bind:title="userlist2.title"
+				v-bind:content="userlist2.content"
+				></umnitem>
+			</div>
+
+			<div class="umnitem3">
+				<umnitem
+				v-for="userlist3 in userlists3" 
+				v-bind:key="userlist3.id"
+				v-bind:id="userlist3.id"
+				v-bind:imgsrc="userlist3.imgsrc"
+				v-bind:title="userlist3.title"
+				v-bind:content="userlist3.content"
+				></umnitem>
+			</div>
+
+			<div class="umnitem4">
+				<umnitem
+				v-for="userlist4 in userlists4" 
+				v-bind:key="userlist4.id"
+				v-bind:id="userlist4.id"
+				v-bind:imgsrc="userlist4.imgsrc"
+				v-bind:title="userlist4.title"
+				v-bind:content="userlist4.content"
+				></umnitem>
+			</div>
+		</div>
+	</div>
+
+	<!--页面独有组件-->
+	<script type="text/javascript" src="js/user_c.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1177 @@
+html,body{
+	height: 100%;
+}
+body{
+	background-color: #ededef;
+}
+
+/*顶部导航条*/
+#topbar{
+	background-color: black;
+}
+.topbar{
+	width: 900px;
+	height: 65px;
+	margin: 0 auto;
+}
+.topbar a:hover{
+	color: white;
+}
+
+.topbar_left a{
+	display: block;
+	float: left;
+	color: #999999;
+	line-height: 65px;
+	width: 90px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.topbar_search{
+	float: left;
+	line-height: 65px;
+	width: 220px;
+	margin-right: 40px;
+}
+
+.topbar input{
+	margin-left: 20px;
+	width: 100%;
+	height: 30px;
+	padding-left: 20px;
+	border: 0;
+	border-radius: 25px;
+}
+
+.topbar_left a:first-child{
+	font-size: 1.6em;
+	margin-right: 20px;
+	font-weight: normal;
+	width: 120px;
+	color: white;
+}
+
+.topbar_right a{
+	display: block;
+	float: left;
+	color: #999999;
+	font-size: 1.2em;
+	line-height: 65px;
+	width: 45px;
+	font-weight: bold;
+}
+.topbar_right a:first-child{
+	margin-left: 50px;
+}
+
+.topbar_right_one{
+	background: url('../img/Sprite3.png') no-repeat -1px -2916px;
+	width: 14px;
+	height: 12px;
+	margin-top: 30px;
+	transform: scale(1.4,1.4);
+}
+.topbar_right_one:hover{
+	background: url('../img/Sprite3.png') no-repeat -1px -2949px;
+	width: 14px;
+	height: 12px;
+}
+
+.topbar_right_twe{
+	background: url('../img/Sprite3.png') no-repeat -1px -1538px;
+	width: 12px;
+	height: 12px;
+	margin-top: 30px;
+	transform: scale(1.5,1.5);
+}
+.topbar_right_twe:hover{
+	background: url('../img/Sprite3.png') no-repeat -1px -1568px;
+	width: 14px;
+	height: 14px;
+}
+
+.topbar_right_three{
+	background: url('../img/Sprite3.png') no-repeat -1px -1604px;
+	width: 12px;
+	height: 12px;
+	margin-top: 30px;
+	transform: scale(1.3,1.3);
+}
+.topbar_right_three:hover{
+	background: url('../img/Sprite3.png') no-repeat -1px -1644px;
+	width: 12px;
+	height: 12px;
+}
+
+.topbar_right_four{
+	margin-top: 4px;
+}
+
+
+
+
+
+
+
+/*中部内容*/
+#content{
+	margin: 0 auto;
+	width: 930px;
+	margin-top: 30px;
+}
+
+
+/*左部内容*/
+#contentleft{
+	float: left;
+	width: 670px;
+	margin-right: 30px;
+}
+#publishbararea{
+	background: url('../img/PostBar.png') no-repeat 0 0;
+	width: 674px;
+	height: 114px;
+	margin-left: -2px;
+	cursor: pointer;
+}
+
+.pareaitem{
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+	margin-left: 2px;
+	margin-top: 1px;
+	float: left;
+}
+.pareaitemuser:hover{
+	background: url('../img/PostBar.png') no-repeat -2px -133px;
+	width: 112px;
+	height: 110px;
+}
+.pareaitemuser:hover .pareaitemuserimg{
+	display: none;
+}
+.pareaitemuserimg{
+	width: 112px;
+	height: 110px;
+	border: none;
+	box-shadow: none;
+}
+.pareaitemuserimg[src=""],.pareaitemuserimg:not([src]){
+	opacity:0;
+}
+.pareaitemtxt:hover{
+	background: url('../img/PostBar.png') no-repeat -114px -133px;
+	width: 112px;
+	height: 110px;
+}
+.pareaitemimg:hover{
+	background: url('../img/PostBar.png') no-repeat -226px -133px;
+	width: 112px;
+	height: 110px;
+}
+.pareaitemmusic:hover{
+	background: url('../img/PostBar.png') no-repeat -338px -133px;
+	width: 112px;
+	height: 110px;
+}
+.pareaitemvideo:hover{
+	background: url('../img/PostBar.png') no-repeat -450px -133px;
+	width: 112px;
+	height: 110px;
+}
+.pareaitemlink:hover{
+	background: url('../img/PostBar.png') no-repeat -562px -133px;
+	width: 110px;
+	height: 110px;
+}
+
+
+#mlist{
+	width: 100%;
+	display: inline-block;
+	margin-top: 30px;
+}
+#mlist span{
+	font-size: 0.9em;
+	color: #888;
+}
+.mlistimg{
+	width: 64px;
+	height: 64px;
+	float: left;
+}
+.mlistcnt{
+	width: 545px;
+	float: right;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.30);
+}
+.mlistcntmid{
+	margin-top: 20px;
+}
+.mlistcntmid_img,.mlistcntmid_text{
+	margin-top: 20px;
+}
+.mlistcntmid_text p{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+.umnitemtwap{
+	margin: 30px;
+}
+.mlistcntmid_text span{
+	font-size: 0.9em;
+}
+.mlistcnt img{
+	display: block;
+	width: 180px;
+	float: left;
+}
+.mlistcnttxt{
+	display: inline;
+	margin-left: 20px;
+}
+.mlistcntopt{
+	width: 100%;
+	float: right;
+	margin-top: 20px;
+}
+.mlistcntopt div:first-child{
+	float: right;
+	margin-right: 20px;
+}
+.mlistcntopt span{
+	margin-right: 15px;
+}
+.mlistcntopt span:hover{
+	/*color: rgba(117,148,179);*/
+	color: black;
+}
+.mlistcntopticon{
+	background: url('../img/Sprite3.png') no-repeat -83px -2761px;
+	width: 16px;
+	height: 15px;
+	float: right;
+	margin-top: 5px;
+}
+.mlistcntopticon:hover{
+	background: url('../img/Sprite3.png') no-repeat -83px -2724px;
+}
+
+/*右部内容*/
+#contentright{
+	width: 230px;
+	float: right;
+}
+.crightfixed{
+	position: fixed;
+	top: 30px;
+}
+
+#rboxuser{
+	width: 100%;
+	height: 141px;
+	background-color: #f3f3f3;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.30);
+	margin-bottom: 30px;
+}
+#rboxuser a{
+	display: block;
+	float: left;
+	color: black;
+}
+
+.rboxuser{
+	width: 153px;
+	height: 55px;
+	line-height: 25px;
+	padding-left: 15px;
+	padding-top: 5px;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+}
+.rboxuser:hover{
+	background-color: white;
+}
+.rboxuser p:first-child{
+	text-align: center;
+	line-height: 55px;
+	font-weight: bold;
+}
+
+.rboxusermore{
+	width: 60px;
+	height: 60px;
+	float: right;
+	position: relative;
+	border-left: 1px solid white;
+	border-bottom: 1px solid #d8d8d8;
+}
+.rboxusermore:hover{
+	background-color: white;
+}
+.rboxusermore a{
+	background: url('../img/Sprite2.png') no-repeat -218px -170px;
+	width: 11px;
+	height: 7px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0; 
+}
+.rboxuserfan{
+	width: 100%;
+	height: 70px;
+	float: left;
+	padding-top: 10px;
+	line-height: 30px;
+	text-align: center;
+	border-top: 1px solid white;
+}
+.rboxuserfanf{
+	width: 50%;
+}
+.rboxuserfans{
+	width: 50%;
+}
+.rboxuserfan p{
+	font-size: 1.1em;
+	color: #8EB902;
+	font-weight: bold;
+}
+
+#rboxcre{
+	width: 100%;
+	background-color: #f3f3f3;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.30);
+}
+#rboxcre a{
+	display: block;
+	color: black;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 1px solid white;
+	font-size: 0.9em;
+}
+#rboxcre a:hover{
+	background-color: white;
+}
+.rboxcretitle{
+	font-weight: bold;
+}
+#rboxcresetcon{
+	background-color: #e7e7e7;
+	box-shadow: inset 0 3px 2px -2px rgba(0,0,0,0.30);
+}
+.rboxcreset{
+	color: #888;
+}
+.icon{
+	display: inline;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+.rboxcretitlei{
+	background: url('../img/Sprite3.png') no-repeat -92px -237px;
+	width: 8px;
+	height: 11px;
+	float: right;
+}
+.rboxcretxt{
+	background: url('../img/Sprite3.png') no-repeat -1px -1688px;
+	width: 12px;
+	height: 11px;
+	float: left;
+}
+.rboxcrecon{
+	background: url('../img/Sprite.png') no-repeat -143px -263px;
+	width: 11px;
+	height: 12px;
+	float: left;
+}
+.rboxcremoney{
+	background: url('../img/Sprite5.png') no-repeat 0 0;
+	width: 11px;
+	height: 11px;
+	float: left;
+}
+.rboxcretext{
+	background: url('../img/Sprite3.png') no-repeat -1px -2036px;
+	width: 11px;
+	height: 12px;
+	float: left;
+}
+.rboxcreseti{
+	background: url('../img/Sprite3.png') no-repeat -1px -1604px;
+	width: 12px;
+	height: 12px;
+	float: left;
+}
+
+
+#rbanner{
+	margin-top: 30px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.30);
+}
+
+
+#ract{
+	margin-top: 25px;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.30);
+	padding-top: 10px;
+	display: inline-block;
+}
+#ract span{
+	font-size: 0.8em;
+	color: #888;
+}
+.racttit{
+	margin-left: 15px;
+	width: 100%;
+	margin-bottom: 10px
+}
+.ractcon{
+	margin-left: 15px;
+	width: 100%;
+	margin-bottom: 10px
+}
+.ractcon img{
+	width: 42%;
+	height: 120px;
+	float: left;
+	padding: 0 8px 8px 0;
+}
+.actmore{
+	width: 100%;
+	background-color: #e7e7e7;
+	box-shadow: inset 0 3px 2px -2px rgba(0,0,0,0.30);
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.actmore:hover{
+	background-color: white;
+}
+.actmore span{
+	margin-left: 10px;
+}
+
+
+#download{
+	width: 100%;
+	margin-top: 30px;
+	padding: 10px 0;
+	background-color: #F3F3F3;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.30);
+	padding: 20px 0px;
+	box-sizing: border-box;
+}
+.downloadtitle p{
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-left: 20px;
+}
+
+.downloaddiv{
+	margin: 8px 8px 0px 8px;
+	padding: 10px;
+	background-color: white;
+}
+.downloaddiv img{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.downloaddiv div{
+	width: 100px;
+	height: 80px;
+	margin-left: 10px;
+	display: inline-block;
+	
+}
+.downloaddiv p{
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-top: 10px;
+}
+.downloaddiv span{
+	font-size: 0.7em;
+	color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*其他内容*/
+/*变黑*/
+#watg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.3;
+	display: none;
+	z-index: 100;
+}
+/*上传头像*/
+#upload{
+	width: 700px;
+	height: 485px;
+	background-color: white;
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	padding: 30px 0 0 0;
+	display: none;
+}
+.uploadtit{
+	font-size: 1.6em;
+	color: #888;
+	margin-left: 30px;
+}
+
+.uploadcnt{
+	height: 350px;
+	margin: 30px 30px 0 30px;
+}
+
+.uploadwarp{
+	width: 450px;
+	height: 350px;
+	background-color: #f3f3f3;
+	float: left;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.uploadimg{
+	height: 100%;
+	display: none;
+}
+.uploadbtn{
+	width: 160px;
+	height: 50px;
+	background-color: #5D5D5D;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.3em;
+}
+.uploadbtn:hover{
+	background-color: #B5B5B5;
+}
+#photoFile{
+	display: none;
+}
+.preview{
+	width: 150px;
+	height: 350px;
+	margin-left: 30px;
+	float: left;
+}
+.lpre{
+	width: 110px;
+	height: 110px;
+	background-color: #f3f3f3;
+}
+.mpre{
+	width: 64px;
+	height: 64px;
+	background-color: #f3f3f3;
+}
+.spre{
+	width: 30px;
+	height: 30px;
+	background-color: #f3f3f3;
+}
+.preview p{
+	font-size: 0.6em;
+	color: #999;
+	margin-bottom: 15px;
+}
+.uploadsure{
+	width: 100px;
+	height: 30px;
+	background-color: #98B623;
+	color: white;
+	border: none;
+	cursor: pointer;
+	float: right;
+	display: none;
+	margin: 20px 20px auto auto;
+}
+
+
+
+
+
+
+
+
+
+#uploadtxt{
+	width: 100%;
+	margin-top: 30px;
+	z-index: 1000;
+	position: relative;
+	display: none;
+}
+.uploadtxtcntname{
+	font-size: 0.9em;
+	color: #888;
+}
+.uploadtxtimg{
+	width: 64px;
+	height: 64px;
+	background: url('../img/userimg.png') no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.uploadtxtcnt{
+	width: 545px;
+	float: right;
+	background-color: white;
+	padding: 20px;
+}
+.uploadtxtcntmid{
+
+}
+.uploadimgwap{
+	width: 99%;
+	margin-top: 20px;
+	cursor: pointer;
+	border: 1px solid #CCC;
+	margin-bottom: 20px;
+}
+.uploadimgwap div{
+	padding:20px;
+	color: #CCC;
+	text-align: center;
+
+}
+
+#uptxttit{
+	width: 98%;
+	height: 40px;
+	padding-left: 1%;
+	margin-top: 30px;
+	margin-bottom: -1px;
+}
+#uptxtcnt{
+	width: 98%;
+	height: 160px;
+	padding-left: 1%;
+	margin-bottom: 30px;
+	padding-top: -50px;
+}
+#uptxtcancelbtn,#uptxtpublishbtn{
+	background-color: #e7e7e7;
+	width: 100px;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	color: #888;
+	cursor: pointer;
+	margin-left: 30px;
+}
+#uptxtcancelbtn:hover{
+	background-color: #ededef;
+}
+#uptxtpublishbtn{
+	background-color: #82D900;
+	color: white;
+	float: right;
+	margin-right: 50px;
+}
+#uptxtpublishbtn:hover{
+	background-color: #8CEA00;
+}
+
+
+
+
+
+
+
+
+
+
+
+#uploadimgtxt{
+	width: 100%;
+	margin-top: 30px;
+	z-index: 1000;
+	position: relative;
+	display: none;
+}
+.uploadimgwap{
+	width: 99%;
+	margin-top: 20px;
+	cursor: pointer;
+	border: 1px solid #CCC;
+}
+.uploadimgwap div{
+	padding:20px;
+	color: #CCC;
+	text-align: center;
+}
+#upimgtxttit{
+	width: 98%;
+	height: 40px;
+	padding-left: 1%;
+	margin-top: 30px;
+	margin-bottom: -1px;
+}
+.uploadimgwap{
+	margin-top: 20px;
+}
+#upimgtxtcnt{
+	width: 98%;
+	height: 160px;
+	padding-left: 1%;
+	margin-bottom: 30px;
+	padding-top: -50px;
+}
+#upimgcancelbtn,#upimgpublishbtn{
+	background-color: #e7e7e7;
+	width: 100px;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	color: #888;
+	cursor: pointer;
+	margin-left: 30px;
+}
+#upimgcancelbtn:hover{
+	background-color: #ededef;
+}
+#upimgpublishbtn{
+	background-color: #82D900;
+	color: white;
+	float: right;
+	margin-right: 50px;
+}
+#upimgpublishbtn:hover{
+	background-color: #8CEA00;
+}
+.uploadimgbtn{
+	width: 120px;
+	background-color: #B5B5B5;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 10px;
+}
+#photoFileimg{
+	display: none;
+}
+.uploadimginwap{
+	margin: 20px 0px;
+}
+.uploadimgin{
+	width: 100%;
+	display: none;
+	margin-top: 20px;
+}
+.uploadimgbtn:hover{
+	background-color: #dedede;
+}
+
+
+
+
+
+
+
+
+
+
+
+#gotop{
+	display: inline-block;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	background: url('../img/Sprite4.png') no-repeat 0 -934px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	display: none;
+}
+#gotop:hover{
+	background: url('../img/Sprite4.png') no-repeat -50px -934px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*More页CSS*/
+
+#hdview{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+}
+
+#morecontent{
+	width: 1280px;
+	margin: 50px auto;
+	background-color: skyblue;
+}
+.contentitem{
+	width: 25%;
+	float: left;
+}
+#moreitem{
+	margin: 0 10px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.3);
+}
+.moreitemtit{
+	padding: 10px;
+	height: 30px;
+}
+.moreitemtit img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+}
+.moreitemtit span{
+	font-size: 0.9em;
+	line-height: 30px;
+}
+.moreitemtit button{
+	width: 70px;
+	height: 30px;
+	float: right;
+	background-color: white;
+	border: 1px solid #9ac600;
+	color: #9ac600;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.moreitemcnt{
+	width: 100%;
+}
+.moreitemcnt img{
+	width: 100%;
+}
+.moreitemcnt p{
+	padding: 10px;
+	border-bottom: 1px solid #ededef;
+}
+.moreitembottom{
+	padding: 10px;
+}
+.likeicon{
+	display: inline-block;
+	background: url('../img/Sprite6.png') no-repeat -4px -477px;
+	width: 20px;
+	height: 18px;
+	margin-bottom: -4px;
+	margin-right: 10px;
+}
+.likeicon:hover{
+	background: url('../img/Sprite6.png') no-repeat -4px -366px;
+}
+.moreitembottom span{
+	color: #888;
+	font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*user页CSS*/
+.usd{
+	width: 400px;
+	height: 100%;
+	background: url(../img/my/userbg.jpg) no-repeat;
+	text-align: center;
+	color: white;
+	float: left;
+	position: fixed;
+	z-index: 100;
+}
+.usdimg{
+	padding-top: 40px;
+}
+.usdabout,.usdbotm{
+	padding-top: 30px;
+}
+.usdimg img{
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+}
+.usdabout p{
+	font-size: 2em;
+	padding-bottom: 30px;
+}
+.usd span{
+	font-size: 0.8em;
+}
+.usdbotm span{
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.umn{
+	width: 1498px;
+	float: right;
+}
+.umntop{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+.umntop a{
+	font-size: 1em;
+	color: black;
+	margin-right: 20px;
+	line-height: 50px;
+	float: right;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+
+#umnitem{
+	margin-top: 80px;
+	background-color: pink;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.30);
+}
+.umnitem1,.umnitem2,.umnitem3,.umnitem4{
+	width: 310px;
+	margin-left: 50px;
+	float: left;
+}
+.umnitem{
+	width: 100%;
+	margin-bottom: 30px;
+	background-color: skyblue;
+	float: left;
+	position: relative;
+	margin: 25px;
+}
+.umnitemmask{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	opacity: 0;
+	transition: all 0.3s;
+}
+.umnitemimg{
+	width: 100%;
+	float: left;
+}
+.umnitemtxt{
+	width: 100%;
+	padding: 30px 0;
+	background-color: white;
+}
+.umnitemtxt p{
+	color: #5ACDB3;
+	font-size: 1.2em;
+	margin: 0 20px 20px 30px;
+}
+.umnitemtxt span{
+	color: #707070;
+	font-size: 0.8em;
+	margin-left: 30px;
+}
+.umnitemdel{
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.umnitemdel button{
+	width: 100px;
+	height: 35px;
+	background-color: white;
+	border:solid 1px;
+	border-radius: 5px;
+	box-shadow: none;
+	cursor: pointer;
+	opacity: 0;
+	transition: all 0.3s;
+}
+.umnitem:hover .umnitemdel button{
+	opacity: 1;
+}
+.umnitem:hover .umnitemmask{
+	display: block;
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*login的样式文件*/
+.loginbody{
+	background-image: url(../img/loginbg.jpg);
+	overflow: hidden;
+}
+.loginwarp{
+	width: 360px;
+	margin: 150px auto;
+}
+.logintit{
+	color: white;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.logintit p{
+	font-size: 3.2em;
+	font-weight: lighter;
+	margin-bottom: 0;
+}
+.logintit span{
+	font-size: 1.4em;
+}
+.loginformc{
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+	padding: 20px 0 40px 0;
+} 
+.loginformc p{
+	font-size: 1.4em;
+	margin: 30px auto;
+}
+.loginformc input{
+	width: 70%;
+	height: 30px;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	box-shadow: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+	outline: none;
+	padding-left: 20px;
+}
+.loginformc button{
+	width: 73%;
+	height: 45px;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	font-size: 1.2em;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 20px;
+	background-color: #14C4BC;
+	border-color: #14C4BC;
+	color: white;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}
+.loginformc button:hover{
+	background-color: #16DAD1;
+	border-color: #16DAD1;
+}
+.loginformc span{
+	font-size: 0.8em;
+	opacity: 0.5;
+}
