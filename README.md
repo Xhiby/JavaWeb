@@ -1,5 +1,6 @@
-# JavaWeb
-## Java课程设计功能展示
+# JavaWeb课程设计
+
+## 功能展示
 
 ### 登录界面
 ![image](https://user-images.githubusercontent.com/78540782/125546513-f44fd9fd-2516-4ac9-bd0b-65dee7982ad4.png)
@@ -20,5 +21,16 @@
 ### 个人主页
 ![image](https://user-images.githubusercontent.com/78540782/125546732-de23d9ed-fe01-4868-801d-0c3e75c4c779.png)
 
-### 编辑个人动态
+### 删除个人动态
 ![image](https://user-images.githubusercontent.com/78540782/125546773-26151779-d240-469b-ac3c-60f6c76c8364.png)
+
+## 项目备注
+
+### 登录
+默认数据库有Wu Eone Test 三个用户 密码均为123
+
+### 说明
+本项目是一个融合Vue、SSM开发的前后端分离项目
+项目的设计参考www.lofter.com 
+项目的重心倾向于使用Vue实现页面的布局及效果
+所以后端功能比较少 复杂的动态上传 编辑个人动态 评论功能都暂未实现 
